@@ -11,3 +11,92 @@ img {
 html {
   scroll-behavior: smooth;
 }
+main{
+  padding: 1rem;
+}
+.title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.titlebold{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+}
+@media screen and (width >= 768px){
+  .title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.25rem;
+    text-align: center;
+}
+.titlebold{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.25rem;
+    text-align: center;
+}
+}
+.h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+.p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9375rem;
+  text-align: center;
+}
+.pcard{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8125rem;
+}
+.box{
+  width: 19.4375rem;
+  height: 13.875rem;
+  background-color: #fff;
+  box-shadow: 0 12px 15px 5px rgba(0, 0, 0, 0.181);
+  padding: 8px 24px;
+  margin-inline: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
+.boxgreen{
+  border: 5px solid;
+}
+.boxred{
+  
+}
+.boxyellow{
+  
+}
+.boxblue{
+  
+}
+
+
+
+@media screen and (width >= 768px){
+  .box{
+    width: 21.875rem;
+    height: 15.625rem;
+    background-color: #fff;
+    box-shadow: 0 12px 15px 5px rgba(0, 0, 0, 0.181);
+    padding: 16px 32px;
+    margin-inline: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+  }
+}
