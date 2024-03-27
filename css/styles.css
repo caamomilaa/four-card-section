@@ -12,58 +12,53 @@ html {
   scroll-behavior: smooth;
 }
 main{
-  padding: 1rem;
+  padding: 4rem 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.starting{
+  margin-bottom: 5rem;
+}
+@media screen and (width >= 768px){
+ .starting{
+  width: 33.75rem;
+  height: 10.5rem;
+  margin-inline: auto;
+ }
 }
 .title{
-    font-family: "Poppins", sans-serif;
     font-weight: 200;
-    font-style: normal;
     font-size: 1.5rem;
     text-align: center;
+    color: #4D4F62;
+    margin: 0;
 }
 .titlebold{
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-style: normal;
     font-size: 1.5rem;
     text-align: center;
+    color: #4D4F62;
+    margin: 0;
 }
 @media screen and (width >= 768px){
   .title{
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
     font-size: 2.25rem;
-    text-align: center;
-}
+  }
 .titlebold{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 2.25rem;
-    text-align: center;
 }
 }
-.h2{
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.25rem;
-}
-.p{
-  font-family: "Poppins", sans-serif;
+.main-text{
   font-weight: 400;
-  font-style: normal;
   font-size: 0.9375rem;
   text-align: center;
+  color: #4D4F62;
 }
-.pcard{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 0.8125rem;
+.subtitle{
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #4D4F62;
 }
-.box{
+.card{
   width: 19.4375rem;
   height: 13.875rem;
   background-color: #fff;
@@ -73,22 +68,69 @@ main{
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
 }
+@media screen and (width >= 768px){
+  .card{
+    width: 21.875rem;
+    height: 15.625rem;
+  }
+}
+.card-text{
+  font-weight: 400;
+  font-size: 0.8125rem;
+  color: #4D4F62;
+}
+.icon{
+  position: relative;
+  width: 3.5625rem;
+  height: 3.5625rem;
+  left:205px;
+  bottom: -9px;
+}
+@media screen and (width >= 768px){
+  .icon{
+    width: 4rem;
+    height: 4rem;
+    left: 14.375rem;
+    bottom: -2.4375rem;
+  }
+}
 .boxgreen{
-  border: 5px solid;
+  border-top: 5px solid #00C8C8;
+}
+@media screen and (width >= 768px){
+  .boxgreen{
+    position: relative; 
+  }
 }
 .boxred{
-  
+  border-top: 5px solid #FF637B;
+}
+@media screen and (width >= 768px){
+  .boxred{
+    
+  }
 }
 .boxyellow{
-  
+  border-top: 5px solid #FDBF00;
+} 
+@media screen and (width >= 768px){
+  .boxyellow{
+ 
+  }
 }
 .boxblue{
-  
+  border-top: 5px solid #377FD2;
+}
+@media screen and (width >= 768px){
+  .boxblue{
+
+  }
 }
 
 
 
-@media screen and (width >= 768px){
+
+media screen and (width >= 768px){
   .box{
     width: 21.875rem;
     height: 15.625rem;
